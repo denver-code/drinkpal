@@ -16,4 +16,4 @@ Light app for tracking your drinks e.g. coffee.
 
 
 ## Demo
-![ Demo ] (assets/output.gif)
+![Demo](assets/output.gif)
