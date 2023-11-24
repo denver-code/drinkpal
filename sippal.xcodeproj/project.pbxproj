@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		841A4E572B11221B00DA595B /* DrinkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841A4E562B11221B00DA595B /* DrinkModel.swift */; };
+		841A4E5A2B1122C700DA595B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841A4E592B1122C700DA595B /* SettingsView.swift */; };
+		841A4E5C2B11230100DA595B /* DrinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841A4E5B2B11230100DA595B /* DrinkView.swift */; };
 		84F4254F2B0FA7A000D5B8C8 /* sippalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4254E2B0FA7A000D5B8C8 /* sippalApp.swift */; };
 		84F425532B0FA7A200D5B8C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F425522B0FA7A200D5B8C8 /* Assets.xcassets */; };
 		84F425562B0FA7A300D5B8C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F425552B0FA7A300D5B8C8 /* Preview Assets.xcassets */; };
@@ -33,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		841A4E562B11221B00DA595B /* DrinkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkModel.swift; sourceTree = "<group>"; };
+		841A4E592B1122C700DA595B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		841A4E5B2B11230100DA595B /* DrinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkView.swift; sourceTree = "<group>"; };
 		84B5E56F2B11214700CDE6AA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		84F4254B2B0FA7A000D5B8C8 /* sippal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sippal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F4254E2B0FA7A000D5B8C8 /* sippalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sippalApp.swift; sourceTree = "<group>"; };
@@ -71,6 +77,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		841A4E552B11220C00DA595B /* models */ = {
+			isa = PBXGroup;
+			children = (
+				841A4E562B11221B00DA595B /* DrinkModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		841A4E582B1122B300DA595B /* views */ = {
+			isa = PBXGroup;
+			children = (
+				841A4E592B1122C700DA595B /* SettingsView.swift */,
+				841A4E5B2B11230100DA595B /* DrinkView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
 		84F425422B0FA7A000D5B8C8 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +118,8 @@
 		84F4254D2B0FA7A000D5B8C8 /* sippal */ = {
 			isa = PBXGroup;
 			children = (
+				841A4E582B1122B300DA595B /* views */,
+				841A4E552B11220C00DA595B /* models */,
 				84F4254E2B0FA7A000D5B8C8 /* sippalApp.swift */,
 				84F425522B0FA7A200D5B8C8 /* Assets.xcassets */,
 				84F425572B0FA7A300D5B8C8 /* sippal.entitlements */,
@@ -258,6 +283,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841A4E5A2B1122C700DA595B /* SettingsView.swift in Sources */,
+				841A4E5C2B11230100DA595B /* DrinkView.swift in Sources */,
+				841A4E572B11221B00DA595B /* DrinkModel.swift in Sources */,
 				84F4254F2B0FA7A000D5B8C8 /* sippalApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
