@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		84F4254F2B0FA7A000D5B8C8 /* sippalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4254E2B0FA7A000D5B8C8 /* sippalApp.swift */; };
-		84F425512B0FA7A000D5B8C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F425502B0FA7A000D5B8C8 /* ContentView.swift */; };
 		84F425532B0FA7A200D5B8C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F425522B0FA7A200D5B8C8 /* Assets.xcassets */; };
 		84F425562B0FA7A300D5B8C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F425552B0FA7A300D5B8C8 /* Preview Assets.xcassets */; };
 		84F425612B0FA7A300D5B8C8 /* sippalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F425602B0FA7A300D5B8C8 /* sippalTests.swift */; };
@@ -36,7 +35,6 @@
 /* Begin PBXFileReference section */
 		84F4254B2B0FA7A000D5B8C8 /* sippal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sippal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F4254E2B0FA7A000D5B8C8 /* sippalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sippalApp.swift; sourceTree = "<group>"; };
-		84F425502B0FA7A000D5B8C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		84F425522B0FA7A200D5B8C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84F425552B0FA7A300D5B8C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		84F425572B0FA7A300D5B8C8 /* sippal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = sippal.entitlements; sourceTree = "<group>"; };
@@ -96,7 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				84F4254E2B0FA7A000D5B8C8 /* sippalApp.swift */,
-				84F425502B0FA7A000D5B8C8 /* ContentView.swift */,
 				84F425522B0FA7A200D5B8C8 /* Assets.xcassets */,
 				84F425572B0FA7A300D5B8C8 /* sippal.entitlements */,
 				84F425542B0FA7A300D5B8C8 /* Preview Content */,
@@ -259,7 +256,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84F425512B0FA7A000D5B8C8 /* ContentView.swift in Sources */,
 				84F4254F2B0FA7A000D5B8C8 /* sippalApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,6 +417,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = sippal/sippal.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -429,6 +426,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SipPal;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,6 +448,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = sippal/sippal.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -456,6 +457,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SipPal;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
