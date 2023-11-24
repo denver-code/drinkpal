@@ -33,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84B5E56F2B11214700CDE6AA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		84F4254B2B0FA7A000D5B8C8 /* sippal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sippal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F4254E2B0FA7A000D5B8C8 /* sippalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sippalApp.swift; sourceTree = "<group>"; };
 		84F425522B0FA7A200D5B8C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -73,6 +74,7 @@
 		84F425422B0FA7A000D5B8C8 = {
 			isa = PBXGroup;
 			children = (
+				84B5E56F2B11214700CDE6AA /* README.md */,
 				84F4254D2B0FA7A000D5B8C8 /* sippal */,
 				84F4255F2B0FA7A300D5B8C8 /* sippalTests */,
 				84F425692B0FA7A300D5B8C8 /* sippalUITests */,
