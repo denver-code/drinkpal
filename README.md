@@ -16,4 +16,5 @@ Light app for tracking your drinks e.g. coffee.
 
 
 ## Demo
-![Demo](https://youtu.be/BwM-cdIwNIk)
+[![Watch the video](https://img.youtube.com/vi/BwM-cdIwNIk/0.jpg)](https://www.youtube.com/watch?v=BwM-cdIwNIk)
+Click the image above to watch the video.
