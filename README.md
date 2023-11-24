@@ -13,3 +13,7 @@ Light app for tracking your drinks e.g. coffee.
 - [ ] Website
 - [ ] Firebase Integration
 - [ ] iOS/Android/Web Client
+
+
+## Demo
+![ Demo ] (assets/output.gif)
